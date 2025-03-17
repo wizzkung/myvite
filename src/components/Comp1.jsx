@@ -7,8 +7,8 @@ const Comp1 = ({ title = "Hello KZ", list, children }) => {
     <>
       {title}
       <ul>
-        {list.map((z) => (
-          <li>{z}</li>
+        {list.map((z, index) => (
+          <li key={index}>{z}</li>
         ))}
       </ul>
       {children}
