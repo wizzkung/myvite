@@ -14,6 +14,8 @@ import {
 } from "./components/Functions";
 import { Select } from "antd";
 import Parent from "./components/Parent";
+import MyTable from "./components/MyTable";
+import Apis from "./components/Apis";
 
 const App = () => {
   // const [val, setVal] = useState(0);
@@ -58,7 +60,10 @@ const App = () => {
 
       <MyCompList2></MyCompList2> */}
 
-      <Parent></Parent>
+      {/* <Parent></Parent> */}
+
+      {/* <MyTable></MyTable> */}
+      <Apis></Apis>
     </>
   );
 };
